@@ -1,0 +1,17 @@
+.footer{
+    margin: 20px 0;
+    text-align: center;
+    background-color: var(--color-grisclaro);
+}
+.footer .footer-titulos{
+    margin-top: 10px;
+    padding: 42px;
+}
+.footer .footer-titulos i{
+    font-size: 2em;
+    color: var(--color-celeste);
+    margin-bottom: 10px;
+}
+.footer .footer-titulos p{
+    color : var(--color-grisobscuro);
+}

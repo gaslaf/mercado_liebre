@@ -1,0 +1,26 @@
+header {
+    background-color: var(--color-amarillo);
+}
+header .burger {
+    text-align: center;
+}
+header .search{
+    text-align: center;
+}
+header .compra{
+    text-align: center;
+    margin-top: 10px;
+}
+header .burger i{
+    background-color: var(--color-celeste);
+    color: var(--color-grisclaro);
+    padding : 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+header .imagen{
+    width: 200px;
+}
+header .primero{
+    margin: 10px 0 10px;
+}
