@@ -1,3 +1,6 @@
+ul li{
+    list-style: none;
+}
 header {
     background-color: var(--color-amarillo);
 }
@@ -21,6 +24,19 @@ header .burger i{
 header .imagen{
     width: 200px;
 }
-header .primero{
-    margin: 10px 0 10px;
+.compra{
+    margin-bottom: 20px;
+}
+.primero, .segundo{
+    display: none;
+}
+header .primero,header .segundo{
+    margin: 10px 0 0 10px;
+    padding: 10px;
+}
+
+@media (min-width: 361px){
+    .primero,.segundo{
+        display: block;
+    }
 }
