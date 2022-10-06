@@ -64,4 +64,21 @@ header .primero,header .segundo{
     .primero,.segundo{
         display: block;
     }
+    header{
+        justify-content: space-between;
+    }
+    header .compra{
+        align-self: center;
+    }
+    header .imagen,header .search,header .compra {
+        width: 33%;
+        align-self: center;
+    }
+    header .primero, header .segundo{
+        width: 45%;
+    }
+    header .primero ul,header .segundo ul{
+        display: flex;
+        justify-content: space-around;
+    }
 }
