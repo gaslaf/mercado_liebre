@@ -1,0 +1,41 @@
+.register{
+    background: var(--color-grisclaro);
+    font-family: 'Roboto', sans-serif;
+}
+.register p{
+    font-weight: 600;
+    text-transform:capitalize;
+    margin: 10px 0px;
+}
+.register form{
+    padding: 10px;
+    margin: 20px;
+    width: 50%;
+}
+.register form ul li{
+    margin-bottom: 25px;
+}
+.register form ul li input{
+    border: 0;
+    padding: 10px;
+    width: 100%;
+}
+.register form ul li .caja-profile{
+    display: flex;
+}
+.register form ul li .input-int{
+    width: 10%;
+}
+.register form ul .botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+.register form ul .botones button{
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--color-celeste);
+}

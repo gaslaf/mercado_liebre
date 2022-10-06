@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/styles.css">
+        <script src="https://kit.fontawesome.com/8b83b79753.js" crossorigin="anonymous"></script>
+        <title> Registrate </title>
+    </head>
+<body>
+    <header>
+<div class="imagen">
+            <img src="/images/logo-mercado-liebre.svg" alt="">
+    
+</div>
+        <div class="search">
+            <form action="#footer">
+                <input type="text"
+                    placeholder="Buscar productos"
+                    name="search">
+                <button>
+                    <i class="fa fa-search">
+                    </i>
+                </button>
+            </form>
+        </div>
+    </div>      
+      <div class="compra">
+        <p><i class="fa-solid fa-hand-holding-dollar"></i>comprá en cuotas y sin tarjeta de crédito</p>
+      </div>
+<div class="primero">
+            <ul>
+                <li>Ofertas</li>
+                <li>Tiendas Oficiales</li>
+                <li>Vender</li>
+                <li>Ayuda</li>
+            </ul>
+</div>
+<div class="segundo">
+            <ul>
+                <li><a href="/register">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></li>
+                <li>Ingresá<i class="fa-sharp fa-solid fa-right-to-bracket"></i></li>
+                <li>Mis compras<i class="fa-solid fa-basket-shopping"></i></li>
+            </ul>
+</div>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+    <main class="register">
+        <form action="" method="post">
+
+            <ul>
+                <li>
+                    <label for="name"></label>                    
+                    <input type="text" id="name" placeholder="nombre y apellido">
+                </li>
+                <li>                    
+                    <label for="nick"></label>                  
+                    <input type="text" id="nick" placeholder="nombre de usuario">
+                </li>
+                <li>
+                    <label for="email"></label>                    
+                    <input type="email" id="email" placeholder="e-mail">
+                </li>
+                <li>
+                    <label for="date"><p>fecha de nacimiento</p></label>
+                    <input type="date" name="date" id="date">
+                </li>
+                <li>
+                    <label for="adress"></label>
+                    <input type="text" name="adress" id="adress" placeholder="domicilio">
+                </li>
+                <li>
+                    <p>perfil de usuario</p>
+                    <div class="caja-profile">
+                        <input type="radio" name="profile" id="profile">
+                        <label for="profile">comprador</label>
+                        
+                        
+                        <input type="radio" name="profile" id="profile">
+                        <label for="profile">vendedor</label>
+                    </div>
+
+                </li>
+                <li>
+                    <p>intereses</p>
+        <ul>
+            <li>
+                <label for="electro"><input class="input-int" type="checkbox" name="hobbies" value="electro" id="">
+                <span>electro</span></label>
+                
+            </li>
+            <li>
+                <label for="moda"><input class="input-int" type="checkbox" name="hobbies" value="moda" id="">
+                <span>moda</span></label>
+                
+            </li>
+            <li>
+                <label for="hogar"><input class="input-int" type="checkbox" name="hobbies" value="hogar" id="">
+                <span>hogar</span></label>
+                
+            </li>
+            <li>
+                <label for="juguetería"><input class="input-int" type="checkbox" name="hobbies" value="juguetería" id="">
+                <span>juguetería</span></label>
+                
+            </li>
+            <li>
+                <label for="vida-sana"><input class="input-int" type="checkbox" name="hobbies" value="vida-sana" id="">
+                <span>vida sana</span></label>
+                
+            </li>
+        </ul>
+                </li>
+
+                <li class="botones">
+                    <button type="submit">enviar</button>
+                    <button type="reset">reset</button>
+                </li>
+            </ul>
+
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.login form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+}
+.login form ul{
+    width: 100%;
+}
+.login form ul input,.login form ul button{
+    width: 100%;
+}
+.login form ul li button{
+    background: var(--color-celeste);
+    padding: 10px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.login form ul li input{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom:  10px ;
+}
