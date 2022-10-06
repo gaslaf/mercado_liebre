@@ -3,16 +3,40 @@ ul li{
 }
 header {
     background-color: var(--color-amarillo);
+    display: flex;
+    flex-wrap: wrap;
 }
 header .burger {
     text-align: center;
 }
 header .search{
     text-align: center;
+    width: 50%;
+}
+header .search form{
+    padding: 10px;
+    position: relative;
+}
+header .search form input{
+    border: 0;
+    padding: 10px;
+    width: 100%;
+}
+header form button{
+    position: absolute;
+    right: 18px;
+    bottom: 20px;
+    border: 0;
+    background: white;
 }
 header .compra{
     text-align: center;
     margin-top: 10px;
+    font-size: 13px;
+    width: 100%;
+}
+header .burger{
+    width: 100%;
 }
 header .burger i{
     background-color: var(--color-celeste);
@@ -22,7 +46,8 @@ header .burger i{
     margin-bottom: 20px;
 }
 header .imagen{
-    width: 200px;
+    width: 50%;
+    padding: 10px;
 }
 .compra{
     margin-bottom: 20px;
